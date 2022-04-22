@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WorkTimeTrackerService.Application\WorkTimeTrackerService.Application.csproj" />
     <ProjectReference Include="..\WorkTimeTrackerService.Domain\WorkTimeTrackerService.Domain.csproj" />
   </ItemGroup>
 
