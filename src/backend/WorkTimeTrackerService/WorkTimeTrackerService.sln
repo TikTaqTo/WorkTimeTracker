@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{79313BF0-6AEA-4EAC-BDA1-4775AA1C99E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{6ED89D4C-2D48-4B11-8817-6A469ADAE48B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{07E23351-1A37-4B30-91E9-524DDFB0A696}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{72A2F7B5-4F5B-4D01-9248-46D338C267B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F77A191B-DCC6-474F-BC41-B5DCC70D4282}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkTimeTrackerService.Shared", "WorkTimeTrackerService.Shared\WorkTimeTrackerService.Shared.csproj", "{9A43A99E-83CF-4C4B-823D-C6A7DA0B5125}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkTimeTrackerService.Api", "WorkTimeTrackerService.Api\WorkTimeTrackerService.Api.csproj", "{708C9C63-48EC-424D-A934-BECE021FAA26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkTimeTrackerService.Api.Model", "WorkTimeTrackerService.Api.Model\WorkTimeTrackerService.Api.Model.csproj", "{77771624-9A0B-49AD-9CEA-815929AB8DCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkTimeTrackerService.Application", "WorkTimeTrackerService.Application\WorkTimeTrackerService.Application.csproj", "{72325A86-27CE-4629-8749-7829E53968D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkTimeTrackerService.Domain", "WorkTimeTrackerService.Domain\WorkTimeTrackerService.Domain.csproj", "{481B686F-4E12-4B71-A3DD-2BEEDEE65014}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkTimeTrackerService.Infrastructure", "WorkTimeTrackerService.Infrastructure\WorkTimeTrackerService.Infrastructure.csproj", "{CEBB5BB1-0A0C-4702-A6C3-A0419C5B864E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkTimeTrackerService.UnitTests", "WorkTimeTrackerService.UnitTests\WorkTimeTrackerService.UnitTests.csproj", "{2E290E5B-7440-480C-BBFC-298567E4FA06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkTimeTrackerService.IntegrationTests", "WorkTimeTrackerService.IntegrationTests\WorkTimeTrackerService.IntegrationTests.csproj", "{62C1026C-B976-44E5-91BB-69D6073C5646}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A43A99E-83CF-4C4B-823D-C6A7DA0B5125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A43A99E-83CF-4C4B-823D-C6A7DA0B5125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A43A99E-83CF-4C4B-823D-C6A7DA0B5125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A43A99E-83CF-4C4B-823D-C6A7DA0B5125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708C9C63-48EC-424D-A934-BECE021FAA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708C9C63-48EC-424D-A934-BECE021FAA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708C9C63-48EC-424D-A934-BECE021FAA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708C9C63-48EC-424D-A934-BECE021FAA26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77771624-9A0B-49AD-9CEA-815929AB8DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77771624-9A0B-49AD-9CEA-815929AB8DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77771624-9A0B-49AD-9CEA-815929AB8DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77771624-9A0B-49AD-9CEA-815929AB8DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72325A86-27CE-4629-8749-7829E53968D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72325A86-27CE-4629-8749-7829E53968D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72325A86-27CE-4629-8749-7829E53968D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72325A86-27CE-4629-8749-7829E53968D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{481B686F-4E12-4B71-A3DD-2BEEDEE65014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{481B686F-4E12-4B71-A3DD-2BEEDEE65014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{481B686F-4E12-4B71-A3DD-2BEEDEE65014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{481B686F-4E12-4B71-A3DD-2BEEDEE65014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEBB5BB1-0A0C-4702-A6C3-A0419C5B864E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEBB5BB1-0A0C-4702-A6C3-A0419C5B864E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEBB5BB1-0A0C-4702-A6C3-A0419C5B864E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBB5BB1-0A0C-4702-A6C3-A0419C5B864E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E290E5B-7440-480C-BBFC-298567E4FA06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E290E5B-7440-480C-BBFC-298567E4FA06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E290E5B-7440-480C-BBFC-298567E4FA06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E290E5B-7440-480C-BBFC-298567E4FA06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C1026C-B976-44E5-91BB-69D6073C5646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C1026C-B976-44E5-91BB-69D6073C5646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C1026C-B976-44E5-91BB-69D6073C5646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C1026C-B976-44E5-91BB-69D6073C5646}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{708C9C63-48EC-424D-A934-BECE021FAA26} = {6ED89D4C-2D48-4B11-8817-6A469ADAE48B}
+		{77771624-9A0B-49AD-9CEA-815929AB8DCE} = {6ED89D4C-2D48-4B11-8817-6A469ADAE48B}
+		{72325A86-27CE-4629-8749-7829E53968D6} = {79313BF0-6AEA-4EAC-BDA1-4775AA1C99E9}
+		{481B686F-4E12-4B71-A3DD-2BEEDEE65014} = {07E23351-1A37-4B30-91E9-524DDFB0A696}
+		{CEBB5BB1-0A0C-4702-A6C3-A0419C5B864E} = {72A2F7B5-4F5B-4D01-9248-46D338C267B9}
+		{2E290E5B-7440-480C-BBFC-298567E4FA06} = {F77A191B-DCC6-474F-BC41-B5DCC70D4282}
+		{62C1026C-B976-44E5-91BB-69D6073C5646} = {F77A191B-DCC6-474F-BC41-B5DCC70D4282}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89C5D6E9-A264-4E8F-8A11-3BE1F3C751CA}
+	EndGlobalSection
+EndGlobal
