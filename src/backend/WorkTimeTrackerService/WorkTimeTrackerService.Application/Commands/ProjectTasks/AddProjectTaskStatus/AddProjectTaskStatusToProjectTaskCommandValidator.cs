@@ -1,4 +1,6 @@
 ﻿using FluentValidation;
+using WorkTimeTrackerService.Application.Commands.ProjectTasks.AddProjectTaskStatus;
+using WorkTimeTrackerService.Application.Validators.ProjectTasks.Requests;
 
 namespace WorkTimeTrackerService.Application.Commands.Dictionaries.ProjectTasks.AddProjectTaskStatus
 {
