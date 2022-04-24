@@ -1,10 +1,4 @@
 ﻿using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WorkTimeTrackerService.Application.Validators.Dictionaries.ProjectTasks;
 using WorkTimeTrackerService.Application.Validators.Dictionaries.ProjectTaskStatuses;
 
 namespace WorkTimeTrackerService.Application.Commands.Dictionaries.ProjectTaskStatuses.Create
