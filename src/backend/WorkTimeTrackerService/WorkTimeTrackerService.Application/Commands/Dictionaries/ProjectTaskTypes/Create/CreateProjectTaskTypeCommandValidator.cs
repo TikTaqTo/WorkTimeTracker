@@ -1,6 +1,7 @@
 ﻿
 
 using FluentValidation;
+using WorkTimeTrackerService.Application.Validators.Dictionaries.ProjectTaskTypes;
 
 namespace WorkTimeTrackerService.Application.Commands.Dictionaries.ProjectTaskTypes.Create
 {
