@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using WorkTimeTrackerService.Application.Abstractions.Dictionaries;
 using WorkTimeTrackerService.Domain.Replies.Dictionaries;
 
-namespace WorkTimeTrackerService.Application.Queries.Dictionaries.ProjectTaskTypes.ProjectTaskTypes
+namespace WorkTimeTrackerService.Application.Queries.Dictionaries.ProjectTaskTypes
 {
   public class RetrieveProjectTaskTypesQueryHandler : IRequestHandler<RetrieveProjectTaskTypesQuery, ProjectTaskTypesReply>
   {
