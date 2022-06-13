@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using WorkTimeTrackerService.Api.Model.EntityModels.Dictionaries;
+using WorkTimeTrackerService.Api.Model.EntityModels.Projects;
 
 namespace WorkTimeTrackerService.Api.Model.EntityModels.ProjectTasks
 {
